@@ -13,7 +13,7 @@
 
 
 모델을 training할 때 최적화를 위해 Adam optimizer와 cross-entropy loss을 사용
-CrossEntropyLoss는 다중 클래스 분류 문제에 적합하며 Adam는 SGD와 비교해 수렴 속도가 빠르고 학습률을 자동으로 조정해 주기 때문에 하이퍼파라미터 튜닝이 비교적 용이한 장점이 있음
+CrossEntropyLoss는 다중 클래스 분류 문제에 적합하며 Adam는 SGD와 비교해 수렴 속도가 빠르고 learning rate을 자동으로 조정해 주기 때문에 hyperparmeter 튜닝이 비교적 용이한 장점이 있음
 
 두 모델을 10회에 걸쳐 훈련하고 training 및 validation loss을 모니터링검증 데이터 세트의 손실값을 기준으로 바닐라 RNN과 LSTM의 언어 생성 성능을 비교
 
