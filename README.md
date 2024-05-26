@@ -43,6 +43,7 @@ Text Generation
 We used the trained LSTM model to generate text samples starting from different seed characters.
 
 ## generate.py
+`generate.py`에서 학습된 LSTM 모델을 사용하여 텍스트를 생성, 드 문자를 사용하여 지정된 길이의 시퀀스를 생성하고 생성된 텍스트를 출력
 temperature parameter *T* 
 문자를 생성할 때 두 개의 temperature parameter를 비교 결과
 temperature parameter가 높을 수록 다양하고 창의적인 텍스트를 생성할 수 있었지만 더 무의미하거나 덜 일관성 있는 시퀀스를 포함되는 아래 결과로 확인
