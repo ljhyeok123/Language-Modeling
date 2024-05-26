@@ -18,6 +18,7 @@ CrossEntropyLoss는 다중 클래스 분류 문제에 적합하며 Adam는 SGD�
 두 모델을 10회에 걸쳐 훈련하고 training 및 validation loss을 모니터링검증 데이터 세트의 손실값을 기준으로 바닐라 RNN과 LSTM의 언어 생성 성능을 비교
 
 결과
+
 LSTM 모델은 validation loss도 더 낮으며 RNN 모델에 비해 더 나은 성능을 보임
 
     Epoch 1, Train Loss RNN: 1.7380, Val Loss RNN: 1.5312
