@@ -12,8 +12,13 @@
     num_layers = 3
 
 
-The models were trained using the Adam optimizer and cross-entropy loss. We trained both models for 10 epochs and monitored the training and validation loss.
-검증 데이터 세트의 손실값을 기준으로 바닐라 RNN과 LSTM의 언어 생성 성능을 비교
+모델을 training할 때 최적화를 위해 Adam optimizer와 cross-entropy loss을 사용
+CrossEntropyLoss는 다중 클래스 분류 문제에 적합하며 Adam는 SGD와 비교해 수렴 속도가 빠르고 학습률을 자동으로 조정해 주기 때문에 하이퍼파라미터 튜닝이 비교적 용이한 장점이 있음
+
+두 모델을 10회에 걸쳐 훈련하고 training 및 validation loss을 모니터링검증 데이터 세트의 손실값을 기준으로 바닐라 RNN과 LSTM의 언어 생성 성능을 비교
+
+결과
+LSTM 모델은 validation loss도 더 낮으며 RNN 모델에 비해 더 나은 성능을 보임
 
     Epoch 1, Train Loss RNN: 1.7380, Val Loss RNN: 1.5312
     Epoch 2, Train Loss RNN: 1.4868, Val Loss RNN: 1.4608
@@ -37,15 +42,8 @@ The models were trained using the Adam optimizer and cross-entropy loss. We trai
     Epoch 9, Train Loss LSTM: 1.2064, Val Loss LSTM: 1.2064
     Epoch 10, Train Loss LSTM: 1.1895, Val Loss LSTM: 1.1878
 
-Results
-The LSTM model showed better performance compared to the vanilla RNN model, achieving a lower validation loss.
-
-Text Generation
-We used the trained LSTM model to generate text samples starting from different seed characters.
-
 ## generate.py
 `generate.py`에서 학습된 LSTM 모델을 사용하여 텍스트를 생성, 드 문자를 사용하여 지정된 길이의 시퀀스를 생성하고 생성된 텍스트를 출력
-temperature parameter *T* 
 문자를 생성할 때 두 개의 temperature parameter를 비교 결과
 temperature parameter가 높을 수록 다양하고 창의적인 텍스트를 생성할 수 있었지만 더 무의미하거나 덜 일관성 있는 시퀀스를 포함되는 아래 결과로 확인
 
