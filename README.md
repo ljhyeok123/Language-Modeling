@@ -4,7 +4,7 @@
 모델에 데이터를 제공하기 위해 Shakespeare dataset을 활용 
 `shakespeare.txt`을 기반으로 데이터를 tenser 형식으로 변환하여 `shakespeare_train.txt`으로 저장
 ## model.py
-`model.py`에서 바닐라 RNN 및 LSTM 모델을 구현
+`model.py`에서 vanilla RNN 및 LSTM 모델을 구현
 ## main.py
 모델 학습을 위해 `main.py`에서 RNN과 LSTM model의 parameter를 다음과 같이 정의
 
