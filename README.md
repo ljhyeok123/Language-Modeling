@@ -8,10 +8,8 @@
 ## main.py
 모델 학습을 위해 `main.py`에서 RNN과 LSTM model의 parameter를 다음과 같이 정의
 
-    batch_size = 64
     hidden_dim = 64
     num_layers = 3
-
 
 `best_rnn_model.pth`와 `best_lstm_model.pth`파일은 각각 RNN과 LSTM 모델의 학습된 weight와 parameter를 저장한 파일입니다. 이 파일들은 `main.py` 스크립트에서 모델 학습 후, validation 데이터에서 가장 좋은 성능을 보인 모델을 저장
 
