@@ -48,7 +48,7 @@ LSTM 모델은 validation loss도 더 낮으며 RNN 모델에 비해 더 나은 
     
 ## generate.py
 
-`generate.py`에서는 학습된 LSTM 모델을 사용하여 텍스트를 생성합니다. seed 문자를 사용하여 지정된 길이의 시퀀스를 생성하고 생성된 텍스트를 출력
+`generate.py`에서는 학습된 LSTM 모델을 사용하여 텍스트를 생성. seed 문자를 사용하여 지정된 길이의 시퀀스를 생성하고 생성된 텍스트를 출력
 
 Temperature parameter는 예측의 무작위성을 제어하는 정도를 나타내며 해당 값에 따라 보수적이거나 창의적인 값을 출력함
 
