@@ -13,6 +13,8 @@
     num_layers = 3
 
 
+`best_rnn_model.pth`와 `best_lstm_model.pth`파일은 각각 RNN과 LSTM 모델의 학습된 weight와 parameter를 저장한 파일입니다. 이 파일들은 `main.py` 스크립트에서 모델 학습 후, validation 데이터에서 가장 좋은 성능을 보인 모델을 저장
+
 모델을 training할 때 최적화를 위해 Adam optimizer와 cross-entropy loss을 사용
 CrossEntropyLoss는 다중 클래스 분류 문제에 적합하며 Adam는 SGD와 비교해 수렴 속도가 빠르고 learning rate을 자동으로 조정해 주기 때문에 hyperparmeter 튜닝이 비교적 용이한 장점이 있음
 
