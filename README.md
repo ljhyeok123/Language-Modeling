@@ -6,9 +6,10 @@
 `model.py`에서 바닐라 RNN 및 LSTM 모델을 구현
 ## main.py
 모델 학습을 위해 `main.py`에서 RNN과 LSTM model의 parameter를 다음과 같이 정의
-batch_size = 64
-hidden_dim = 64
-num_layers = 3
+
+    batch_size = 64
+    hidden_dim = 64
+    num_layers = 3
 
 
 The models were trained using the Adam optimizer and cross-entropy loss. We trained both models for 10 epochs and monitored the training and validation loss.
