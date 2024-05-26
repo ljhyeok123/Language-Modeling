@@ -3,9 +3,14 @@
 ## dataset.py
 모델에 데이터를 제공하기 위해 Shakespeare dataset을 활용 
 ## model.py
-`model.py`에서 바닐라 RNN 및 LSTM 모델을 구현합니다. 파일에 주석으로 몇 가지 지침이 제공됩니다. 모델 성능 향상에 도움이 된다면 원하는 만큼 레이어를 쌓아보세요.
+`model.py`에서 바닐라 RNN 및 LSTM 모델을 구현
 ## main.py
-모델 학습을 위한 `main.py`를 작성합니다. 여기서는 학습 및 검증 데이터 세트의 평균 손실 값을 사용하여 학습 과정을 모니터링
+모델 학습을 위해 `main.py`에서 RNN과 LSTM model의 parameter를 다음과 같이 정의
+batch_size = 64
+hidden_dim = 64
+num_layers = 3
+
+
 The models were trained using the Adam optimizer and cross-entropy loss. We trained both models for 10 epochs and monitored the training and validation loss.
 검증 데이터 세트의 손실값을 기준으로 바닐라 RNN과 LSTM의 언어 생성 성능을 비교
 
