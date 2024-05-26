@@ -41,57 +41,47 @@ We used the trained LSTM model to generate text samples starting from different 
 temperature parameter *T* 
 문자를 생성할 때 두 개의 temperature parameter를 비교 결과
 temperature parameter가 높을 수록 다양하고 창의적인 텍스트를 생성할 수 있었지만 더 무의미하거나 덜 일관성 있는 시퀀스를 포함되는 아래 결과로 확인
+
 High Temperature (e.g., 0.8)
+    
+    Seed: "Once "
+    Once zealse and the while:
+    The gods close to the time of your honour.--than me well.
+    Second Citizen:
+    Bei
+    Seed: "When "
+    When zealous hearts of the cortress
+    Affareturn me, would be says he did
+    I cannot hope, and so in the acco
+    Seed: "While "
+    While zook with such above me put in I have mine
+    His husband fair work in my love of your poor lady of the
+    Seed: "Although "
+    Although zealing up the blood to blowd
+    When I may to the reperity, that
+    Methous the voice me for your hope,
+    I
+    Seed: "However "
+    However zearl in the world
+    Than I cannot be sunder ladies, the greater both
+    A fellow of the last in a person
 
-Seed: "Once "
-Once zealse and the while:
-The gods close to the time of your honour.--than me well.
+Low Temperature (e.g., 0.3)
 
-Second Citizen:
-Bei
-
-Seed: "When "
-When zealous hearts of the cortress
-Affareturn me, would be says he did
-I cannot hope, and so in the acco
-
-Seed: "While "
-While zook with such above me put in I have mine
-His husband fair work in my love of your poor lady of the
-
-Seed: "Although "
-Although zealing up the blood to blowd
-When I may to the reperity, that
-Methous the voice me for your hope,
-I
-
-Seed: "However "
-However zearl in the world
-Than I cannot be sunder ladies, the greater both
-A fellow of the last in a person
-
-- Low Temperature (e.g., 0.3)
-
-Seed: "Once "
-Once zealous speaks that the same the state and
-To see the people and the tribunes, the gods be the shado
-
-Seed: "When "
-When zeal is but the world of 'twixt the seat,
-When he was young, my lord, and there's not a hand.
-
-SICIN
-
-Seed: "While "
-While zealous singly son, as I say you that they
-Which will one to be so bad that he's a revenge of York,
-
-
-Seed: "Although "
-Although zealse the seat of a man,
-I'll plain and hear me she the mayor to your grace,
-The country's good wor
-
-Seed: "However "
-However zealous subjects the seat
-Are so still and the deep stand that he is the seat, I had he shall know t
+    Seed: "Once "
+    Once zealous speaks that the same the state and
+    To see the people and the tribunes, the gods be the shado
+    Seed: "When "
+    When zeal is but the world of 'twixt the seat,
+    When he was young, my lord, and there's not a hand.
+    SICIN
+    Seed: "While "
+    While zealous singly son, as I say you that they
+    Which will one to be so bad that he's a revenge of York,
+    Seed: "Although "
+    Although zealse the seat of a man,
+    I'll plain and hear me she the mayor to your grace,
+    The country's good wor
+    Seed: "However "
+    However zealous subjects the seat
+    Are so still and the deep stand that he is the seat, I had he shall know t
