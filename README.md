@@ -12,23 +12,24 @@ The models were trained using the Adam optimizer and cross-entropy loss. We trai
     Epoch 1, Train Loss RNN: 1.7380, Val Loss RNN: 1.5312
     Epoch 2, Train Loss RNN: 1.4868, Val Loss RNN: 1.4608
     Epoch 3, Train Loss RNN: 1.4399, Val Loss RNN: 1.4299
-Epoch 4, Train Loss RNN: 1.4159, Val Loss RNN: 1.4104
-Epoch 5, Train Loss RNN: 1.4007, Val Loss RNN: 1.3999
-Epoch 6, Train Loss RNN: 1.3899, Val Loss RNN: 1.3908
-Epoch 7, Train Loss RNN: 1.3827, Val Loss RNN: 1.3838
-Epoch 8, Train Loss RNN: 1.3768, Val Loss RNN: 1.3786
-Epoch 9, Train Loss RNN: 1.3723, Val Loss RNN: 1.3741
-Epoch 10, Train Loss RNN: 1.3687, Val Loss RNN: 1.3693
-Epoch 1, Train Loss LSTM: 1.9473, Val Loss LSTM: 1.5975
-Epoch 2, Train Loss LSTM: 1.5094, Val Loss LSTM: 1.4489
-Epoch 3, Train Loss LSTM: 1.4058, Val Loss LSTM: 1.3760
-Epoch 4, Train Loss LSTM: 1.3469, Val Loss LSTM: 1.3290
-Epoch 5, Train Loss LSTM: 1.3057, Val Loss LSTM: 1.2943
-Epoch 6, Train Loss LSTM: 1.2738, Val Loss LSTM: 1.2645
-Epoch 7, Train Loss LSTM: 1.2476, Val Loss LSTM: 1.2431
-Epoch 8, Train Loss LSTM: 1.2255, Val Loss LSTM: 1.2212
-Epoch 9, Train Loss LSTM: 1.2064, Val Loss LSTM: 1.2064
-Epoch 10, Train Loss LSTM: 1.1895, Val Loss LSTM: 1.1878
+    Epoch 4, Train Loss RNN: 1.4159, Val Loss RNN: 1.4104
+    Epoch 5, Train Loss RNN: 1.4007, Val Loss RNN: 1.3999
+    Epoch 6, Train Loss RNN: 1.3899, Val Loss RNN: 1.3908
+    Epoch 7, Train Loss RNN: 1.3827, Val Loss RNN: 1.3838
+    Epoch 8, Train Loss RNN: 1.3768, Val Loss RNN: 1.3786
+    Epoch 9, Train Loss RNN: 1.3723, Val Loss RNN: 1.3741
+    Epoch 10, Train Loss RNN: 1.3687, Val Loss RNN: 1.3693
+    
+    Epoch 1, Train Loss LSTM: 1.9473, Val Loss LSTM: 1.5975
+    Epoch 2, Train Loss LSTM: 1.5094, Val Loss LSTM: 1.4489
+    Epoch 3, Train Loss LSTM: 1.4058, Val Loss LSTM: 1.3760
+    Epoch 4, Train Loss LSTM: 1.3469, Val Loss LSTM: 1.3290
+    Epoch 5, Train Loss LSTM: 1.3057, Val Loss LSTM: 1.2943
+    Epoch 6, Train Loss LSTM: 1.2738, Val Loss LSTM: 1.2645
+    Epoch 7, Train Loss LSTM: 1.2476, Val Loss LSTM: 1.2431
+    Epoch 8, Train Loss LSTM: 1.2255, Val Loss LSTM: 1.2212
+    Epoch 9, Train Loss LSTM: 1.2064, Val Loss LSTM: 1.2064
+    Epoch 10, Train Loss LSTM: 1.1895, Val Loss LSTM: 1.1878
 
 Results
 The LSTM model showed better performance compared to the vanilla RNN model, achieving a lower validation loss.
@@ -40,7 +41,7 @@ We used the trained LSTM model to generate text samples starting from different 
 temperature parameter *T* 
 문자를 생성할 때 두 개의 temperature parameter를 비교 결과
 temperature parameter가 높을 수록 다양하고 창의적인 텍스트를 생성할 수 있었지만 더 무의미하거나 덜 일관성 있는 시퀀스를 포함되는 아래 결과로 확인
-- High Temperature (e.g., 0.8)
+High Temperature (e.g., 0.8)
 
 Seed: "Once "
 Once zealse and the while:
