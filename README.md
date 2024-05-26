@@ -35,7 +35,24 @@ LSTM 모델은 validation loss도 더 낮으며 RNN 모델에 비해 더 나은 
     Epoch 9, Train Loss RNN: 1.3723, Val Loss RNN: 1.3741
     Epoch 10, Train Loss RNN: 1.3687, Val Loss RNN: 1.3693
     
-    Epoch 1, Train Loss LSTM: 1.9473, Val Loss LSTM: 1.597엄격한 일관성보다 참신함이 더 중요한 시나 소설 대화와 같이 창의적이고 다양한 콘텐츠를 생성하는 데 High Temperature (e.g., 0.8)가 더 적합하지만 일관되고 문법적으로 정확해야 하며 뉴스 기사나 보고서와 같이 사람이 쓴 텍스트와 유사해야 하는 텍스트를 생성하려면 Low Temperature (e.g., 0.3)가 더 좋음
+    Epoch 1, Train Loss LSTM: 1.9473, Val Loss LSTM: 1.597
+    Epoch 2, Train Loss LSTM: 1.5094, Val Loss LSTM: 1.4489
+    Epoch 3, Train Loss LSTM: 1.4058, Val Loss LSTM: 1.3760
+    Epoch 4, Train Loss LSTM: 1.3469, Val Loss LSTM: 1.3290
+    Epoch 5, Train Loss LSTM: 1.3057, Val Loss LSTM: 1.2943
+    Epoch 6, Train Loss LSTM: 1.2738, Val Loss LSTM: 1.2645
+    Epoch 7, Train Loss LSTM: 1.2476, Val Loss LSTM: 1.2431
+    Epoch 8, Train Loss LSTM: 1.2255, Val Loss LSTM: 1.2212
+    Epoch 9, Train Loss LSTM: 1.2064, Val Loss LSTM: 1.2064
+    Epoch 10, Train Loss LSTM: 1.1895, Val Loss LSTM: 1.1878
+    
+## generate.py
+
+`generate.py`에서는 학습된 LSTM 모델을 사용하여 텍스트를 생성합니다. seed 문자를 사용하여 지정된 길이의 시퀀스를 생성하고 생성된 텍스트를 출력
+
+Temperature parameter는 예측의 무작위성을 제어하는 정도를 나타내며 해당 값에 따라 보수적이거나 창의적인 값을 출력함
+
+엄격한 일관성보다 참신함이 더 중요한 시나 소설 대화와 같이 창의적이고 다양한 콘텐츠를 생성하는 데 High Temperature (e.g., 0.8)가 더 적합하지만 일관되고 문법적으로 정확해야 하며 뉴스 기사나 보고서와 같이 사람이 쓴 텍스트와 유사해야 하는 텍스트를 생성하려면 Low Temperature (e.g., 0.3)가 더 좋음
 
 High Temperature (e.g., 0.8)
     
