@@ -9,7 +9,7 @@
 The models were trained using the Adam optimizer and cross-entropy loss. We trained both models for 10 epochs and monitored the training and validation loss.
 검증 데이터 세트의 손실값을 기준으로 바닐라 RNN과 LSTM의 언어 생성 성능을 비교
 
-Epoch 1, Train Loss RNN: 1.7380, Val Loss RNN: 1.5312
+/Epoch 1, Train Loss RNN: 1.7380, Val Loss RNN: 1.5312
 Epoch 2, Train Loss RNN: 1.4868, Val Loss RNN: 1.4608
 Epoch 3, Train Loss RNN: 1.4399, Val Loss RNN: 1.4299
 Epoch 4, Train Loss RNN: 1.4159, Val Loss RNN: 1.4104
